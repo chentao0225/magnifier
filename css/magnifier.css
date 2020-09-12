@@ -1,0 +1,41 @@
+.magnifier {
+  box-sizing: border-box;
+  width: 650px;
+  margin: 20px auto;
+}
+.small {
+  position: relative;
+  float: left;
+  width: 300px;
+  height: 300px;
+}
+.small img {
+  width: 100%;
+  height: 100%;
+}
+.small .mark {
+  display: none;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100px;
+  height: 100px;
+  background-color: rgba(255, 0, 0, 0.3);
+  cursor: move;
+}
+.big {
+  display: none;
+  box-sizing: border-box;
+  position: relative;
+  float: left;
+  width: 350px;
+  height: 350px;
+  border: 1px solid #ccc;
+  overflow: hidden;
+}
+.big img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+}
